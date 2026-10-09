@@ -11,8 +11,23 @@ echo "=========================================================="
 echo " Starting Automation for CBL007"
 echo "=========================================================="
 
-# Dynamically fetch the allowed zone from your lab configuration
-ZONE=$(gcloud config get-value compute/zone)
+# 1. Try to get zone from gcloud config
+ZONE=$(gcloud config get-value compute/zone 2>/dev/null || true)
+
+# 2. If empty, try to get it from project metadata (Qwiklabs usually sets this)
+if [ -z "$ZONE" ]; then
+    ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[?(@.key=='google-compute-default-zone')].value)" 2>/dev/null || true)
+fi
+
+# 3. If STILL empty, prompt user and exit safely
+if [ -z "$ZONE" ]; then
+    echo "❌ Could not automatically determine the required Lab Zone."
+    echo "Please look at the left panel of your Qwiklabs screen to find 'Lab Zone'."
+    echo "Then run: gcloud config set compute/zone <YOUR-ZONE>"
+    echo "And run this script again."
+    exit 1
+fi
+
 echo "[*] Using zone: $ZONE"
 
 echo "=== Task 1: Create utility-vm ==="
