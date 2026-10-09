@@ -8,6 +8,7 @@ Repository containing hands-on lab code, automated scripts, and architecture not
 |---|----------|--------|---------------|--------|
 | 1 | [Hello Cloud Run](./Hello-Cloud-Run) | CBL333 | Google Cloud Fundamentals: Core Infrastructure | ✅ Completed |
 | 2 | [Explore the Google Cloud Console and Cloud Shell](./Explore-Console-Cloud-Shell-CBL006) | CBL006 | Essential Google Cloud Infrastructure: Foundation | ✅ Completed |
+| 3 | [Deploy a LAMP Stack with Google Cloud Marketplace](./Deploy-LAMP-Stack-Marketplace-CBL011) | CBL011 | Essential Google Cloud Infrastructure: Foundation | ✅ Completed |
 
 ---
 
@@ -20,3 +21,7 @@ Repository containing hands-on lab code, automated scripts, and architecture not
 ### [Explore the Google Cloud Console and Cloud Shell (CBL006)](./Explore-Console-Cloud-Shell-CBL006)
 - **Topics**: Cloud Console, Cloud Shell, Cloud Storage, Persistent environment variables.
 - **Automation**: Ready-to-run automation script `run-lab.sh` for Google Cloud Shell.
+
+### [Deploy a LAMP Stack with Google Cloud Marketplace (CBL011)](./Deploy-LAMP-Stack-Marketplace-CBL011)
+- **Topics**: Cloud Marketplace, Compute Engine, LAMP Stack, Deployment Manager.
+- **Automation**: Console-based deployment guide (Marketplace validation requires web console usage).
