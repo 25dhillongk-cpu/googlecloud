@@ -11,16 +11,9 @@ echo "=========================================================="
 echo " Starting Automation for CBL007"
 echo "=========================================================="
 
-# Ensure zone is set, grabbing from gcloud config or falling back
-ZONE=$(gcloud config get-value compute/zone 2>/dev/null || true)
-if [ -z "$ZONE" ]; then
-    # In some Qwiklabs, it's not set automatically in config, so we fall back
-    ZONE="us-central1-f"
-    echo "[*] No default zone found, setting to $ZONE"
-    gcloud config set compute/zone $ZONE
-else
-    echo "[*] Using default zone: $ZONE"
-fi
+# Use the zone specified in the lab instructions
+ZONE="asia-east1-c"
+echo "[*] Using zone: $ZONE"
 
 echo "=== Task 1: Create utility-vm ==="
 gcloud compute instances create utility-vm \
