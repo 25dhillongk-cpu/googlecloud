@@ -10,6 +10,7 @@ Repository containing hands-on lab code, automated scripts, and architecture not
 | 2 | [Explore the Google Cloud Console and Cloud Shell](./Explore-Console-Cloud-Shell-CBL006) | CBL006 | Essential Google Cloud Infrastructure: Foundation | ✅ Completed |
 | 3 | [Deploy a LAMP Stack with Google Cloud Marketplace](./Deploy-LAMP-Stack-Marketplace-CBL011) | CBL011 | Essential Google Cloud Infrastructure: Foundation | ✅ Completed |
 | 4 | [Create and Configure VPC Networks](./Create-Configure-VPC-Networks-CBL057) | CBL057 | Essential Google Cloud Infrastructure: Foundation | ✅ Completed |
+| 5 | [Implement Private Google Access and Cloud NAT](./Implement-Private-Google-Access-Cloud-NAT-CBL188) | CBL188 | Essential Google Cloud Infrastructure: Foundation | ✅ Completed |
 
 ---
 
@@ -29,5 +30,9 @@ Repository containing hands-on lab code, automated scripts, and architecture not
 
 ### [Create and Configure VPC Networks (CBL057)](./Create-Configure-VPC-Networks-CBL057)
 - **Topics**: VPC Networks, Custom/Auto Mode, Firewall Rules, Compute Engine, Internal/External IP Connectivity.
+- **Automation**: Ready-to-run automation script `run-lab.sh` for Google Cloud Shell.
+
+### [Implement Private Google Access and Cloud NAT (CBL188)](./Implement-Private-Google-Access-Cloud-NAT-CBL188)
+- **Topics**: Private Google Access, Cloud NAT, Cloud Router, IAP Tunnels, Internal VMs.
 - **Automation**: Ready-to-run automation script `run-lab.sh` for Google Cloud Shell.
 
