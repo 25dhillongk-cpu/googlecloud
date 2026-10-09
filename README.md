@@ -11,6 +11,7 @@ Repository containing hands-on lab code, automated scripts, and architecture not
 | 3 | [Deploy a LAMP Stack with Google Cloud Marketplace](./Deploy-LAMP-Stack-Marketplace-CBL011) | CBL011 | Essential Google Cloud Infrastructure: Foundation | ✅ Completed |
 | 4 | [Create and Configure VPC Networks](./Create-Configure-VPC-Networks-CBL057) | CBL057 | Essential Google Cloud Infrastructure: Foundation | ✅ Completed |
 | 5 | [Implement Private Google Access and Cloud NAT](./Implement-Private-Google-Access-Cloud-NAT-CBL188) | CBL188 | Essential Google Cloud Infrastructure: Foundation | ✅ Completed |
+| 6 | [Create Virtual Machines](./Create-Virtual-Machines-CBL007) | CBL007 | Essential Google Cloud Infrastructure: Foundation | ✅ Completed |
 
 ---
 
@@ -27,6 +28,10 @@ Repository containing hands-on lab code, automated scripts, and architecture not
 ### [Deploy a LAMP Stack with Google Cloud Marketplace (CBL011)](./Deploy-LAMP-Stack-Marketplace-CBL011)
 - **Topics**: Cloud Marketplace, Compute Engine, LAMP Stack, Deployment Manager.
 - **Automation**: Console-based deployment guide (Marketplace validation requires web console usage).
+
+### [Create Virtual Machines (CBL007)](./Create-Virtual-Machines-CBL007)
+- **Topics**: Compute Engine, Virtual Machines, Windows Server, Custom Machine Types, External IPs.
+- **Automation**: Ready-to-run automation script `run-lab.sh` for Google Cloud Shell.
 
 ### [Create and Configure VPC Networks (CBL057)](./Create-Configure-VPC-Networks-CBL057)
 - **Topics**: VPC Networks, Custom/Auto Mode, Firewall Rules, Compute Engine, Internal/External IP Connectivity.
