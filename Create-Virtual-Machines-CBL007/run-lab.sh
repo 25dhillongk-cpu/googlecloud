@@ -11,8 +11,8 @@ echo "=========================================================="
 echo " Starting Automation for CBL007"
 echo "=========================================================="
 
-# Use the zone specified in the lab instructions
-ZONE="asia-east1-c"
+# Dynamically fetch the allowed zone from your lab configuration
+ZONE=$(gcloud config get-value compute/zone)
 echo "[*] Using zone: $ZONE"
 
 echo "=== Task 1: Create utility-vm ==="
