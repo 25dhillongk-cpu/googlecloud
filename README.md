@@ -9,6 +9,7 @@ Repository containing hands-on lab code, automated scripts, and architecture not
 | 1 | [Hello Cloud Run](./Hello-Cloud-Run) | CBL333 | Google Cloud Fundamentals: Core Infrastructure | ✅ Completed |
 | 2 | [Explore the Google Cloud Console and Cloud Shell](./Explore-Console-Cloud-Shell-CBL006) | CBL006 | Essential Google Cloud Infrastructure: Foundation | ✅ Completed |
 | 3 | [Deploy a LAMP Stack with Google Cloud Marketplace](./Deploy-LAMP-Stack-Marketplace-CBL011) | CBL011 | Essential Google Cloud Infrastructure: Foundation | ✅ Completed |
+| 4 | [Create and Configure VPC Networks](./Create-Configure-VPC-Networks-CBL057) | CBL057 | Essential Google Cloud Infrastructure: Foundation | ✅ Completed |
 
 ---
 
@@ -25,3 +26,8 @@ Repository containing hands-on lab code, automated scripts, and architecture not
 ### [Deploy a LAMP Stack with Google Cloud Marketplace (CBL011)](./Deploy-LAMP-Stack-Marketplace-CBL011)
 - **Topics**: Cloud Marketplace, Compute Engine, LAMP Stack, Deployment Manager.
 - **Automation**: Console-based deployment guide (Marketplace validation requires web console usage).
+
+### [Create and Configure VPC Networks (CBL057)](./Create-Configure-VPC-Networks-CBL057)
+- **Topics**: VPC Networks, Custom/Auto Mode, Firewall Rules, Compute Engine, Internal/External IP Connectivity.
+- **Automation**: Ready-to-run automation script `run-lab.sh` for Google Cloud Shell.
+
