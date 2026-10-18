@@ -12,6 +12,7 @@ Repository containing hands-on lab code, automated scripts, and architecture not
 | 4 | [Create and Configure VPC Networks](./Create-Configure-VPC-Networks-CBL057) | CBL057 | Essential Google Cloud Infrastructure: Foundation | ✅ Completed |
 | 5 | [Implement Private Google Access and Cloud NAT](./Implement-Private-Google-Access-Cloud-NAT-CBL188) | CBL188 | Essential Google Cloud Infrastructure: Foundation | ✅ Completed |
 | 6 | [Create Virtual Machines](./Create-Virtual-Machines-CBL007) | CBL007 | Essential Google Cloud Infrastructure: Foundation | ✅ Completed |
+| 7 | [Configure Cloud SQL](./Configure-Cloud-SQL-CBL037) | CBL037 | Essential Google Cloud Infrastructure: Core Services | ✅ Completed |
 
 ---
 
@@ -39,5 +40,9 @@ Repository containing hands-on lab code, automated scripts, and architecture not
 
 ### [Implement Private Google Access and Cloud NAT (CBL188)](./Implement-Private-Google-Access-Cloud-NAT-CBL188)
 - **Topics**: Private Google Access, Cloud NAT, Cloud Router, IAP Tunnels, Internal VMs.
+- **Automation**: Ready-to-run automation script `run-lab.sh` for Google Cloud Shell.
+
+### [Configure Cloud SQL (CBL037)](./Configure-Cloud-SQL-CBL037)
+- **Topics**: Cloud SQL, MySQL 8.0, Private Services Access (PSA), Cloud SQL Auth Proxy, WordPress DB Connection.
 - **Automation**: Ready-to-run automation script `run-lab.sh` for Google Cloud Shell.
 
